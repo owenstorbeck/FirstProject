@@ -4,7 +4,6 @@ Filename: FirstProjectCSS
 */
 body {
     background-color: lightgoldenrodyellow;
-    font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -25,18 +24,6 @@ h3 {
   color: #7f8c8d;
 }
 
-#pageContent ul {
-    list-style: armenian;
-    padding-left: 1.25rem;
-    max-width: 800px;
-}
-
-#pageContent li {
-    display: flow-root;
-    margin-bottom: 12px;
-    line-height: 1.5;
-}
-
 #pageContent ul img {
     float: right;
     width: 150px;
@@ -48,95 +35,31 @@ h3 {
     border-collapse: collapse;
 }
 
-#wrapper {
-    margin-left: 150px;
-    margin-right: 150px;
-    font-family: Georgia, 'Times', Helvetica, sans-serif;
-    height: 3000px;
-    background-color: blue;
-    color: antiquewhite;
-}
-
-#header {
-    width: 99.8%;
-    height: 40px;
-    background: rgba(236, 181, 77, 0.97);
-    border: solid #ed3737 thin;
-    border-bottom: solid #f9e9a1 10px;
-    border-top: solid rgba(105, 164, 25, 0.92) 10px;
-    padding-top: 20px;
-    align-content: center;
+.wrapper {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: skyblue;
 }
 
-a.button {
-    padding: 6px;
-    border: 1px outset groove;
-    border-radius: 7px;
-    color: #fae4e4;
-    background-color: rgba(193, 55, 198, 0.99);
-    text-decoration: none;
-    margin: 20px;
+.button {
+    display: inline-block;
+    padding-bottom: 9px
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: purple;
+    background-color: red;
 }
 
-content {
-    float: left;
-    width: 100%;
+img {
+    text-align: center;
+    border: 10px lavender;
+    border-radius: 40px;
 }
 
-#pageContent {
-    float: left;
-    color: #47b49b;
-    line-height: 1.6;
-    width: 95%;
-    height: 750px;
-}
-
-#content h2 {
-    color: #ddaa49;
-    padding-left: 6px;
-}
-
-#content h3 {
-    color: #ddaa49;
-    margin-left: none;
-}
-
-#pageContent {
-    padding-left: 15px;
-}
-
-#pageContent img {
-    width: 60%;
-}
-
-#pageContent li {
-    padding-bottom: 12px;
-}
-
-#leftEdge {
-    float: left;
-    border-left: solid #ddc14c thin;
-    background: #9570da;
-    width: 1%;
-    height: 2900px;
-}
-
-#rightEdge {
-    float: right;
-    border-left: solid #ddc14c thin;
-    background: #9570da;
-    width: 1%;
-    height: 2900px;
-}
-
-#pageContent p {
-    padding-left: 18px;
-    line-height: 1.5;
-}
-
-#menu img {
-    margin-left: 16px;
-    width: 80%;
-    margin-top: 22px;
+.name{
+    text-align: center;
 }
