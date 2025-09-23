@@ -31,17 +31,6 @@ h4 {
   color: #95a5a6;
 }
 
-h5 {
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #bdc3c7;
-}
-
-h6 {
-  font-size: 1rem;
-  font-weight: 300;
-  color: #ecf0f1;
-}
 #pageContent ul {
     list-style: armenian;
     padding-left: 1.25rem;
@@ -157,5 +146,6 @@ content {
     width: 80%;
     margin-top: 22px;
 }
+
 
 
