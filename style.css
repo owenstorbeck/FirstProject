@@ -42,7 +42,7 @@ h3 {
     background-color: skyblue;
 }
 
-.button {
+#button {
     display: inline-block;
     padding-bottom: 9px
     padding-top: 9px;
@@ -63,3 +63,4 @@ img {
 .name{
     text-align: center;
 }
+
